@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "let-me-fly",
+	"version": "${version}",
+	"name": "Let Me Fly",
+	"description": "Make blast-prot ignore wind charges!",
+	"authors": [
+		"Mariomastr2011"
+	],
+	"contact": {
+		"homepage": "https://www.modrinth.com/mods/let-me-fly",
+		"sources": "https://github.com/mariomastr2011/let-me-fly"
+	},
+	"license": "MIT",
+	"icon": "assets/let-me-fly/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"org.mariomastr.LetMeFly"
+		]
+	},
+	"mixins": [
+		"let-me-fly.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
